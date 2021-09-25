@@ -43,9 +43,20 @@ body {
   font-size; 24px;
 }
 
+
+.icones {
+  display: flex;
+  margin-right:15px;
+}
+
+.icones-miniatura {
+  width: 30px;
+  height: 30px;
+}
+
 .tema button {
-  align-self:flex-end;
-  font-size: 24px;
+  align-self: flex-end;
+  font-size: 16px;
   font-weight: 400;
   padding: 8px 16px;
   background: #ecf4ff;
@@ -53,8 +64,9 @@ body {
 }
 
 .projetos {
-  display:flex;
+  display: flex;
   flex-direction: column;
+  align-items: center;
   background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
   margin-top: 32px;
   padding: 32px;
@@ -66,6 +78,8 @@ body {
   list-style: none;
   font-weight: 700;
   font-size: 28px;
+  alignment-adjust: center;
+  margin-right: 10px;
 }
 
 .projetos-item {
